@@ -9,5 +9,3 @@ def reverse_each_word(sentence)
   x.reverse
   end
 end
-
-
