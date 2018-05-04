@@ -5,3 +5,10 @@ def reverse_each_word(sentence)
   end
   reverse_word.join(" ")
 end
+
+def reverse_each_word(sentence)
+  sentence.split().collect do |x|
+  x.reverse
+  end
+
+end
