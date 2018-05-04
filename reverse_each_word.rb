@@ -6,10 +6,9 @@ def reverse_each_word(sentence)
   reverse_word.join(" ")
 end
 
-=begin
-def reverse_each_word
+
+def reverse_each_word(sentence)
   sentence.split().collect do |x|
   x.reverse
   end
 end
-=end
