@@ -4,5 +4,3 @@ def reverse_each_word(sentence)
   end
   reverse_word.join(" ")
 end
-
-
